@@ -11,7 +11,6 @@ def create_lists():
     lst2 = []
     with open("input.txt") as f:
         for line in f:
-            # Split the line into two numbers
             num1, num2 = map(int, line.split())
             lst1.append(num1)
             lst2.append(num2)
